@@ -55,7 +55,7 @@ const NewsDetailsPage = async ({ params }) => {
               <h2 className='flex items-center gap-2'><FaEye className='text-lg' />{news.total_view}</h2>
             </div>
 
-            <Link href={`/category/${news._id}`}>
+            <Link href={`/category/${news.category_id}`}>
               <button className='btn bg-purple-500'>See other news for this catagory <FaArrowRight /></button>
             </Link>
           </div>

@@ -23,7 +23,7 @@ const NewsCategoryPage = async ({ params }) => {
             </div>
 
 
-            <div className="bg-green-50 col-span-6">
+            <div className=" col-span-6">
                 <h2 className='font-bold text-3xl'>News by category</h2>
                 <div className="space-y-4 mt-4">
                     {news.length > 0 ? news.map((n) => {
